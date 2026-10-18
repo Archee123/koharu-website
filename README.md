@@ -1,6 +1,6 @@
 # Koharu website
 
-A simple, responsive Japanese café wireframe built with Next.js App Router, React and TypeScript. Matches the Next.js/React versions used by the existing portfolio project. Uses plain CSS and system fonts, with no image assets or external services.
+A simple, responsive Japanese café wireframe built with Next.js App Router, React and TypeScript. Matches the Next.js/React versions used by the existing portfolio project. Uses plain CSS and system fonts, the supplied Koharu logo, and a full-width café photograph with overlaid text.
 
 ## Run locally
 
@@ -22,7 +22,7 @@ src/
   components/
     site-header.tsx
     site-footer.tsx
-    section-heading.tsx     Shared numbered headings and kanji labels
+    section-heading.tsx     Main headings and kanji labels
     placeholder.tsx         Image-free wireframe blocks
     sections/
       hero.tsx
@@ -34,7 +34,8 @@ src/
   lib/
     content.ts              Navigation and illustrative menu content
 public/
-  images/                   Reserved for future imagery
+  brand/                    Logo exported from the supplied brand PDF
+  images/                   Optimized hero photograph; room for future imagery
 ```
 
 ## Editing
@@ -47,3 +48,5 @@ public/
 - Search indexing is disabled in `src/app/layout.tsx` while this is a wireframe. Update that metadata before launch.
 
 The requested structure contains hero, house favourites, story, menu, café moments, visit and footer. No seasonal specials section.
+
+Sections use full-width cream, deep green and orange colour blocks without divider lines or small numbered headings. The hero photograph comes from the supplied `Stock/pexels-fotios-photos-1137745.jpg`; its web version is resized and compressed. The logo is rendered directly from `Koharu V1.pdf` with a transparent background.

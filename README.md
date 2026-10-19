@@ -52,3 +52,16 @@ The requested structure contains hero, house favourites, story, menu, café mome
 Sections use full-width cream ivory, dark brown and olive beige colour blocks without divider lines or small numbered headings. The hero photograph comes from the supplied `Stock/pexels-fotios-photos-1137745.jpg`; its web version is resized and compressed. The logo is rendered directly from `Koharu V1.pdf` with a transparent background.
 
 The palette uses cream ivory `#FFF9E7`, dark brown `#5C4A3E`, olive beige `#978A5B` and near-black. Typography follows the supplied editorial reference: Times-style serif body text, italic serif headings, compact square uppercase buttons, and sharp rectangular image areas. The supplied logo is displayed in the current brand colour using its original transparency as a CSS mask.
+
+## Selected Pexels photography
+
+Photos currently use direct Pexels CDN URLs, with browser loading and responsive crops. Local downloads were unavailable in the editing environment. The hojicha card remains a placeholder until a matching photograph is selected. Café interiors are stock mood imagery.
+
+| Placement | Photographer | Pexels photo |
+| --- | --- | --- |
+| Hero | Teresa Jang | https://www.pexels.com/photo/17323622/ |
+| Matcha favourite | Szymon Shields | https://www.pexels.com/photo/37745284/ |
+| Sweet favourite | Charlotte May | https://www.pexels.com/photo/5946977/ |
+| Story | See source page | https://www.pexels.com/photo/8473963/ |
+| Atmosphere | Kuan-yu Huang | https://www.pexels.com/photo/15970416/ |
+| Preparation detail | Szymon Shields | https://www.pexels.com/photo/37745278/ |

@@ -101,3 +101,9 @@ dt { font-weight: 600; } dd { margin: 0; }
   h2 { font-size: 2rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.section-photo { position: relative; min-height: 350px; overflow: hidden; background: var(--olive); }
+.section-photo img { object-fit: cover; }
+.favourites-grid .section-photo { min-height: 0; aspect-ratio: 6 / 5; }
+.split-layout .section-photo { min-height: 420px; }
+@media (max-width: 760px) { .section-photo, .split-layout .section-photo { min-height: 300px; } }

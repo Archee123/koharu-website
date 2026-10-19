@@ -8,7 +8,7 @@ export function Hero() {
       <div className="hero-copy container">
         <h1 id="hero-title">A little warmth.<br />A slower moment.</h1>
         <p>A cup made with care. Something lovely to eat. A quiet corner to call your own.</p>
-        <div className="actions"><a className="button" href="#menu">Explore the menu <span aria-hidden="true">↗</span></a><a className="text-link" href="#visit">Find us <span aria-hidden="true">↗</span></a></div>
+        <div className="actions"><a className="button" href="#menu">Explore the menu</a><a className="text-link" href="#visit">Find us</a></div>
       </div>
     </section>
   );

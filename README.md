@@ -49,9 +49,9 @@ public/
 
 The requested structure contains hero, house favourites, story, menu, café moments, visit and footer. No seasonal specials section.
 
-Sections use full-width cream ivory, dark brown and olive beige colour blocks without divider lines or small numbered headings. The hero photograph comes from the supplied `Stock/pexels-fotios-photos-1137745.jpg`; its web version is resized and compressed. The logo is rendered directly from `Koharu V1.pdf` with a transparent background.
+Sections use full-width cream, soft sand and olive colour blocks with a dark brown footer without divider lines or small numbered headings. The hero photograph comes from the supplied `Stock/pexels-fotios-photos-1137745.jpg`; its web version is resized and compressed. The logo is rendered directly from `Koharu V1.pdf` with a transparent background.
 
-The palette uses cream ivory `#FFF9E7`, dark brown `#5C4A3E`, olive beige `#978A5B` and near-black. Typography follows the supplied editorial reference: Times-style serif body text, italic serif headings, compact square uppercase buttons, and sharp rectangular image areas. The supplied logo is displayed in the current brand colour using its original transparency as a CSS mask.
+The supplied palette uses cream `#F2E6D8`, olive `#555934`, tan `#BF9B7A`, terracotta `#8C5B3E` and dark brown `#593E2E`. Cream is the main canvas, olive anchors the menu, and story/visit panels mix 75% cream with 25% tan. Terracotta highlights buttons; dark brown provides body text and the footer. Tan image placeholders use cream-backed labels for readable contrast. Typography follows the supplied editorial reference: Times-style serif body text, italic serif headings, compact square uppercase buttons, and sharp rectangular image areas. The supplied logo is displayed in the current brand colour using its original transparency as a CSS mask.
 
 ## Selected Pexels photography
 

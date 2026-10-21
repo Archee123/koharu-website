@@ -55,7 +55,7 @@ The supplied palette uses cream `#F2E6D8`, olive `#555934`, tan `#BF9B7A`, terra
 
 ## Selected Pexels photography
 
-Photos currently use direct Pexels CDN URLs, with browser loading and responsive crops. Local downloads were unavailable in the editing environment. The hojicha card remains a placeholder until a matching photograph is selected. Café interiors are stock mood imagery.
+Photos currently use direct Pexels CDN URLs, with browser loading and responsive crops. Local downloads were unavailable in the editing environment. Café interiors are stock mood imagery.
 
 | Placement | Photographer | Pexels photo |
 | --- | --- | --- |
@@ -65,3 +65,9 @@ Photos currently use direct Pexels CDN URLs, with browser loading and responsive
 | Story | See source page | https://www.pexels.com/photo/8473963/ |
 | Atmosphere | Kuan-yu Huang | https://www.pexels.com/photo/15970416/ |
 | Preparation detail | Szymon Shields | https://www.pexels.com/photo/37745278/ |
+
+## Hōjicha photo and illustrative map
+
+The hōjicha card uses a local copy of Andy Li's public-domain (CC0) photograph, [Iced Japanese Hojicha Latte](https://commons.wikimedia.org/wiki/File:Iced_Japanese_Hojicha_Latte_-_Ikigai_2025-07-11.jpg), saved at `public/images/hojicha-latte.jpg`.
+
+`src/components/cafe-map.tsx` contains an original SVG neighbourhood illustration. It is a fictional map, labelled as illustrative, and should be replaced once the real location is confirmed.

@@ -2,6 +2,8 @@
   --cream: #fff9e7;
   --brown: #5c4a3e;
   --olive: #978a5b;
+  --brown-tint: #eee3d6;
+  --olive-tint: #e9e4cd;
   --ink: #5c4a3e;
   --black: #171511;
   --font-body: "Times New Roman", Times, serif;
@@ -41,12 +43,12 @@ nav { display: flex; gap: 38px; font-family: Arial, Helvetica, sans-serif; font-
 .section-heading { display: flex; justify-content: space-between; align-items: center; gap: 28px; margin-bottom: 42px; }
 .section-kanji { font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif CJK JP", serif; font-size: clamp(3rem, 5vw, 5rem); line-height: 1.2; letter-spacing: .08em; }
 .section-favourites { background: var(--cream); color: var(--brown); }
-.section-story { background: var(--brown); color: var(--cream); }
-.section-story .placeholder { background: rgba(255,249,231,.14); }
-.menu-band { background: var(--olive); color: var(--black); }
+.section-story { background: var(--brown-tint); color: var(--brown); }
+.section-story .placeholder { background: rgba(151,138,91,.14); }
+.menu-band { background: var(--olive-tint); color: var(--brown); }
 .section-moments { background: var(--cream); color: var(--brown); }
-.section-visit { background: var(--brown); color: var(--cream); }
-.section-visit .placeholder { background: rgba(255,249,231,.14); }
+.section-visit { background: var(--brown-tint); color: var(--brown); }
+.section-visit .placeholder { background: rgba(151,138,91,.14); }
 .favourites-grid, .menu-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 .favourites-grid h3 { margin-top: 14px; margin-bottom: 10px; }
 .favourites-grid p { max-width: 320px; font-size: 1.125rem; }
